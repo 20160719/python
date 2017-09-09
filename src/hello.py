@@ -9,13 +9,21 @@ def add(x, y):
 print add(3, 5)
 
 class Peo(object):
+    
     def __init__(self, name, age):
         self.name = name
         self.age =age
       
     def toStr(self):  
         print self.name, self.age
+        
 p = Peo("bbb", 20)
+
 print p.toStr()
+
+
+
+
+
 
 
