@@ -1,4 +1,7 @@
 
+import module
+print module.add(3, 5)
+
 score = 80
 if score >= 90:
     print "youxiu"
@@ -46,6 +49,11 @@ print len(old)
 arr = range(3);
 for a in arr:
     print "a:",a
+    
+for a in arr:
+    if a == 2:
+        continue
+    print "a:", a
 
-
+del arr
     
