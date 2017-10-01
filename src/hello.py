@@ -59,6 +59,20 @@ def p():
 p();
 print i
 
+def count():
+    fs = []
+    for i in range(1, 4):
+        j = i
+        def f():
+            return j * j
+        fs.append(f)
+    return fs
+
+f1 = count();
+print len(f1)
+
+print f1[0](), f1[1](), f1[2]()
+
 str = raw_input("please input:");
 print "your input:", str
 
